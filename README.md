@@ -1,7 +1,7 @@
-# Stock-Hawk
+# StockHawk
 Stock Hawk is Udacity Nanodegree Project 3
 
-##ScreenShots
+##Screenshots
 <img src="https://s3.postimg.org/fo1lrzyxf/Screenshot_20160815_210505.png" width="350" height="600" />
 &emsp;
 &emsp;
