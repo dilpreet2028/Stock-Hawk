@@ -53,7 +53,7 @@ public class StocksData {
 			response=okHttpClient.newCall(request).execute();
 			getData(response.body().string());
 		}catch (IOException e){
-
+			e.printStackTrace();
 		}
 
 

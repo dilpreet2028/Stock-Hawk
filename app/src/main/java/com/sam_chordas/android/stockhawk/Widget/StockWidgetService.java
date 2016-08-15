@@ -42,7 +42,7 @@ public class StockWidgetService extends RemoteViewsService {
 
 	@Override
 	public RemoteViewsFactory onGetViewFactory(final Intent intent) {
-		Log.d("mytag","remoteviewfactory");
+
 		return new RemoteViewsFactory() {
 			private Cursor cursorData=null;
 			@Override

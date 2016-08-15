@@ -7,10 +7,13 @@
     <string name="action_change_units">Change Units</string>
     <string name="symbol_search">Symbol Search</string>
     <string name="content_test">Search for a Stock Symbol</string>
-    <string name="input_hint">FB</string>
+    <string name="input_hint" translatable="false">FB</string>
     <string name="input_prefill"></string>
     <string name="network_toast">Uh-oh! This app requires an internet connection</string>
-    <string name="intent_symbol">symbol</string>
-    <string name="transition_symbol">symbol_name</string>
+    <string name="intent_symbol" translatable="false">symbol</string>
+    <string name="transition_symbol" translatable="false">symbol_name</string>
     <string name="list_empty">List is empty</string>
+    <string name="stock_already_present">This stock is already saved!</string>
+    <string name="intent_tag">tag</string>
+    <string name="fab_add">Add a new stock</string>
 </resources>
