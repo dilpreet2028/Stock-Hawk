@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context="com.sam_chordas.android.stockhawk.ui.DetailActivity">
+    <include layout="@layout/toolbar"
+             android:id="@+id/toolbar"/>
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailsSymbolName"
+        tools:text="GOOGL"
+        android:gravity="start|left"
+        android:layout_margin="@dimen/normal_margin"
+        android:transitionName="@string/transition_symbol"
+        android:textSize="@dimen/text_heading"/>
+
+    <org.eazegraph.lib.charts.ValueLineChart
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cubiclinechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:egUseCubic="true"
+        app:egUseOverlapFill="true"
+        app:egCurveSmoothness="0.4"
+        app:egIndicatorLineColor="@color/indicator_color"
+        app:egLegendHeight="@dimen/legend_height"
+        app:egShowStandardValue="true"/>
+</LinearLayout>
